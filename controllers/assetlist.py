@@ -6,17 +6,17 @@ Created on Mar 28, 2014
 
 import os, sys, logging, json
 from models.assetlist import Assetlist
-from models.meolist import MeoList
+#from models.meolist import MeoList
 from controllers.assets import AssetController
 
 sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'../lib'))
 
-from meokanal import MKClient
+#from meokanal import MKClient
 from utils.core import *
 
 log = logging.getLogger()
 astControl = AssetController()
-cl = MKClient()
+#cl = MKClient()
 
 from base import BaseController
 
